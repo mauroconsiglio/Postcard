@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347C85A519F699B00035B6FE /* Sagrada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 347C85A419F699B00035B6FE /* Sagrada.jpg */; };
 		349DE19A19CF079D00C13226 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 349DE19919CF079D00C13226 /* AlbertEinsteinStamp.jpg */; };
 		34D84D6419CED6E200CC03FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D84D6319CED6E200CC03FE /* AppDelegate.swift */; };
 		34D84D6619CED6E200CC03FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D84D6519CED6E200CC03FE /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		34D84D6B19CED6E200CC03FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D84D6A19CED6E200CC03FE /* Images.xcassets */; };
 		34D84D6E19CED6E200CC03FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D84D6C19CED6E200CC03FE /* LaunchScreen.xib */; };
 		34D84D7A19CED6E200CC03FE /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D84D7919CED6E200CC03FE /* PostcardTests.swift */; };
-		34D84D8419CEE5C500CC03FE /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34D84D8319CEE5C500CC03FE /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		347C85A419F699B00035B6FE /* Sagrada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sagrada.jpg; sourceTree = "<group>"; };
 		349DE19919CF079D00C13226 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 		34D84D5E19CED6E200CC03FE /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D84D6219CED6E200CC03FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		34D84D7319CED6E200CC03FE /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D84D7819CED6E200CC03FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D84D7919CED6E200CC03FE /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
-		34D84D8319CEE5C500CC03FE /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 		34D84D6119CED6E200CC03FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				34D84D8319CEE5C500CC03FE /* SagradaFamilia.jpeg */,
+				347C85A419F699B00035B6FE /* Sagrada.jpg */,
 				349DE19919CF079D00C13226 /* AlbertEinsteinStamp.jpg */,
 				34D84D6219CED6E200CC03FE /* Info.plist */,
 			);
@@ -199,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D84D6919CED6E200CC03FE /* Main.storyboard in Resources */,
-				34D84D8419CEE5C500CC03FE /* SagradaFamilia.jpeg in Resources */,
 				349DE19A19CF079D00C13226 /* AlbertEinsteinStamp.jpg in Resources */,
+				347C85A519F699B00035B6FE /* Sagrada.jpg in Resources */,
 				34D84D6E19CED6E200CC03FE /* LaunchScreen.xib in Resources */,
 				34D84D6B19CED6E200CC03FE /* Images.xcassets in Resources */,
 			);
@@ -347,6 +347,7 @@
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -357,6 +358,7 @@
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
